@@ -1,7 +1,7 @@
 ---
 title: "Report on Pima Indian Diabetes Dataset"
 layout: post
-date: 2019-09-08
+date: 2018-09-08
 tags: Explorary Data Analysis, ML
 comments: true
 ---
@@ -72,29 +72,24 @@ This missing data can affect to building the model. When we build a model with t
 Pima indian dataset is very small, 768 total example. If we delete any training data the model can be end up with high biased. So we can’t take option one.Different person has the different level of insulin level. If we transfer the high number of data with most likely value, we maybe end up with high variance problem. So,best option is number two.    
 
 There is a useful library called "Pandas" that can use for this purpose. First, we replace the missing data with "np.NaN" with "replace" method. After that, we use "fillna" method to replace them with their mean value.
-The source code will be something like that,
-
-                            dataset.fillna(dataset.mean(), inplace=True)
+The source code will be something like that, dataset.fillna(dataset.mean(), inplace=True)
 
 ### 4.1.2. Feature selection 
 
 There are many feature that can not affect the model.By using this kind of feature for training the model then it’s just add up the computational power.  
-            <center> <img src="Picture/01.png" alt="hi" align="middle" class="inline"/> </center>
+            []!(https://github.com/YakinRubaiat/yakinrubaiat.github.io/blob/master/_posts/Picture/01.png)
                       
-          Figure: “Skin Thickness” graph for pima indian dataset. Here X-axis contain skin
-                                    thickness, Y-axis Contain “Number of patient”.  
+Figure: “Skin Thickness” graph for pima indian dataset. Here X-axis contain skin thickness, Y-axis Contain “Number of patient”.  
 
 Here we can see in the first block of the histogram contain a pretty much same number of element from both classes (0 or 1). And it still maintains this ratio when the Skin Thickness is increased. So this can't be an import feature for the model.
               <center> <img src="Picture/02.png" alt="hi" align="middle" class="inline"/> </center>
              
-                Figure : BMI feature graph from pima indian dataset(Here X-axis contain 
-                            And Y-axis contain the “Number of patient”)
+Figure : BMI feature graph from pima indian dataset(Here X-axis contain And Y-axis contain the “Number of patient”)
                                    
                              
    <center> <img src="Picture/03.png" alt="hi" align="middle" class="inline"/> </center>
               
-                Figure : Glucose level graph for pima indian dataset(Here X-axis contain 
-                           glucose level,Y-axis contain “Number of patient”)
+Figure : Glucose level graph for pima indian dataset(Here X-axis contain glucose level,Y-axis contain “Number of patient”)
                                 
 
 Conclude by this data when glucose and BMI level increase, the risk for diabetes increases significantly.  So it provides us with a useful model. By analyzing the different graph and by investing which feature affect the most in diabetes, we find four feature.
