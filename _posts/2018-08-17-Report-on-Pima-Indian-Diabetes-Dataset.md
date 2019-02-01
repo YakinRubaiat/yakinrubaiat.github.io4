@@ -78,12 +78,13 @@ The source code will be something like that, dataset.fillna(dataset.mean(), inpl
 
 There are many feature that can not affect the model.By using this kind of feature for training the model then it’s just add up the computational power.  
 
-![](https://i.imgur.com/jrShVoI.png) 
+<center> <img src="https://i.imgur.com/jrShVoI.png" alt="hi" align="middle" class="inline"/> </center>
                       
 Figure: “Skin Thickness” graph for pima indian dataset. Here X-axis contain skin thickness, Y-axis Contain “Number of patient”.  
 
 Here we can see in the first block of the histogram contain a pretty much same number of element from both classes (0 or 1). And it still maintains this ratio when the Skin Thickness is increased. So this can't be an import feature for the model.
-              <center> <img src="https://i.imgur.com/jrShVoI.png" alt="hi" align="middle" class="inline"/> </center>
+
+<center> <img src="https://i.imgur.com/jrShVoI.png" alt="hi" align="middle" class="inline"/> </center>
              
 Figure : BMI feature graph from pima indian dataset(Here X-axis contain And Y-axis contain the “Number of patient”)
                                    
