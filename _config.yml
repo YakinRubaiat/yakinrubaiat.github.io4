@@ -14,21 +14,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Randi Griffin
+title: Fuzzy Logic 
 
-email: rgriff23@gmail.com
+email: yakin13@cse.pstu.ac.bd
 
 description: > # this means to ignore newlines until "baseurl:"
   Using R since 2010.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 
-url: "https://rgriff23.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yakinrubaiat.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social media usernames
-github_username:    rgriff23
-researchgate_username: Randi_Griffin
-linkedin_username:    randigriffin
+github_username:    YakinRubaiat
+researchgate_username: Sajratul_Rubaiat
+linkedin_username:    yakinrubaiat
 kaggle_username:    heesoo37
 twitter_username:     HeesooRandi
 
