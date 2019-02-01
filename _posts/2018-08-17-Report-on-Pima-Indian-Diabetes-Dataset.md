@@ -78,7 +78,7 @@ The source code will be something like that, dataset.fillna(dataset.mean(), inpl
 
 There are many feature that can not affect the model.By using this kind of feature for training the model then it’s just add up the computational power.  
 
-![](https://imgur.com/a/egbVvbc)
+![](https://i.imgur.com/a/egbVvbc)
                       
 Figure: “Skin Thickness” graph for pima indian dataset. Here X-axis contain skin thickness, Y-axis Contain “Number of patient”.  
 
