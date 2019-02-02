@@ -2,7 +2,7 @@
 title: "Report on Pima Indian Diabetes Dataset"
 layout: post
 date: 2018-09-08
-tags: Explorary Data Analysis, ML
+tags: Exploratory Data Analysis, ML
 comments: true
 ---
 
@@ -84,12 +84,12 @@ Figure: “Skin Thickness” graph for pima indian dataset. Here X-axis contain 
 
 Here we can see in the first block of the histogram contain a pretty much same number of element from both classes (0 or 1). And it still maintains this ratio when the Skin Thickness is increased. So this can't be an import feature for the model.
 
-<center> <img src="https://i.imgur.com/jrShVoI.png" alt="hi" align="middle" class="inline"/> </center>
+<center> <img src="https://i.imgur.com/E9DfgZM.png" alt="hi" align="middle" class="inline"/> </center>
              
 Figure : BMI feature graph from pima indian dataset(Here X-axis contain And Y-axis contain the “Number of patient”)
                                    
                              
-   <center> <img src="Picture/03.png" alt="hi" align="middle" class="inline"/> </center>
+   <center> <img src="https://i.imgur.com/iMtTAg5.png" alt="hi" align="middle" class="inline"/> </center>
               
 Figure : Glucose level graph for pima indian dataset(Here X-axis contain glucose level,Y-axis contain “Number of patient”)
                                 
@@ -134,12 +134,12 @@ By applying this parameter we get the result,
 ### 4.2.1. K-means Algorithm
 
 K-means is a very popular algorithm for clustering It mainly uses for unsupervised data. In the Pima Indian dataset, there are many miss-classified examples that can turn bad effect for the model. So for noise cancelling and getting an extra feature by clustering data we do k-means algorithm. 
-             <center> <img src="Picture/04.png" alt="hi" align="middle" class="inline"/> </center>
+             <center> <img src="https://i.imgur.com/FBBZVSQ.png" alt="hi" align="middle" class="inline"/> </center>
 
                      Figure : Visualizing the “k-means algorithm” for pima indian dataset.
 
 We apply k-means algorithm by 8 feature data. After applying this we get the result like this,
-             <center> <img src="Picture/01.png" alt="hi" align="middle" class="inline"/> </center>
+             <center> <img src="https://i.imgur.com/GN47mGH.png" alt="hi" align="middle" class="inline"/> </center>
              
                      Figure : k-means clustering result in pima-indian dataset.
                               
