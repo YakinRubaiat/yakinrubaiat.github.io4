@@ -136,12 +136,12 @@ By applying this parameter we get the result,
 K-means is a very popular algorithm for clustering It mainly uses for unsupervised data. In the Pima Indian dataset, there are many miss-classified examples that can turn bad effect for the model. So for noise cancelling and getting an extra feature by clustering data we do k-means algorithm. 
              <center> <img src="https://i.imgur.com/FBBZVSQ.png" alt="hi" align="middle" class="inline"/> </center>
 
-                     Figure : Visualizing the “k-means algorithm” for pima indian dataset.
+Figure : Visualizing the “k-means algorithm” for pima indian dataset.
 
 We apply k-means algorithm by 8 feature data. After applying this we get the result like this,
              <center> <img src="https://i.imgur.com/GN47mGH.png" alt="hi" align="middle" class="inline"/> </center>
              
-                     Figure : k-means clustering result in pima-indian dataset.
+igure : k-means clustering result in pima-indian dataset.
                               
 We use "K-means" algorithm result as an input feature which gives a good advantage in accuracy. For doing "k-means clustering" algorithm we use "Weka" is a collection of machine learning algorithms for data mining tasks made by "Machine Learning Group at the University of Waikato".It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. If you go to Filters -> Unsupervised -> attribute -> Addcluster, It will simply add up "Simple K-means" algorithm. 
 
