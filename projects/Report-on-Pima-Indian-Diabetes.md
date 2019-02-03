@@ -1,6 +1,8 @@
 ---
+layout: project
 title: "Report on Pima Indian Diabetes Dataset"
 layout: post
+author: Sajaratul Yakin Rubaiat
 date: 2018-09-08
 tags: Exploratory Data Analysis, ML
 comments: true
