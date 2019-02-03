@@ -6,8 +6,9 @@ active: projects
 
 ### Research
 
-[**Automate The Pnumonia Detection with a probablishtic neural network model**](/projects/Pnumonia_Detection) - Ankur Research Fellowship.
+[**Automate The Pnumonia Detection with a Probablishtic Neural Network Model**](/projects/Pnumonia_Detection) - Under Ankur Research Fellowship Program. 
 
+[**Report On Pima Indian Diabetes Dataset**](/projects/Report-on-Pima-Indian-Diabetes) - Under Ankur Research Fellowship Program. 
 
 ### Other
 
