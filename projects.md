@@ -6,9 +6,8 @@ active: projects
 
 ### Research
 
-[]
+[**Automate The Pnumonia Detection with a probablishtic neural network model**](/projects/Pnumonia_Detection) - Ankur Research Fellowship.
 
-###
 
 ### Other
 
