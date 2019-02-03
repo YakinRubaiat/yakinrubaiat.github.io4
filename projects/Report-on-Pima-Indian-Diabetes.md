@@ -1,12 +1,13 @@
 ---
+
 layout: project
-title: "Report on Pima Indian Diabetes Dataset"
-layout: post
+title: "Report On Pima Indian Diabetes Dataset"
 author: Sajaratul Yakin Rubaiat
-date: 2018-09-08
-tags: Exploratory Data Analysis, ML
-comments: true
+comments: false
+
 ---
+
+___
 
 ## 1. Abstract
 
@@ -213,6 +214,8 @@ Logistic regression is most suitable for this kind of problem because it’s cos
 Within two methods, number 1 is more acceptable because it takes less computational power and gives us a much higher accuracy. But the Second method is easy to implement.  By this two method, we can see that how we can train a model that can predict someone diabetes by taking some input feature like Glucose, BMI, Age. 
 
 For future work it is necessary to make a local dataset from hospital. Food habit of every country is different from each other. So it is important to gather a local dataset.  
+
+___
 
 
     
