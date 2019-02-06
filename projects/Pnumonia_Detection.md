@@ -34,7 +34,14 @@ In this project, the main goal is predicting whether pneumonia exists in a given
 
 ### 4.1 YOLO(You Only Look Once)V3 model
 
-[YOLOV3](https://pjreddie.com/media/files/papers/YOLOv3.pdf) is the fastest and one of the most popular algorithms for object detection. For computation limitation, it would be a perfect choice. YOLO algorithm doesn’t use the sliding window technique to computing the bounding box’s or masking for like Mask-Rcnn. It divides the the picture into a different grid and computes all the grid confidence value at once. For Pneumonia detection YOLO algorithm get 15.3 percent accuracy in exact boundary box detection where max threshold accuracy is 25.47. 
+[YOLOV3](https://pjreddie.com/media/files/papers/YOLOv3.pdf) is the fastest and one of the most popular algorithms for object detection. YOLOV3 is the fastest and one of the most popular algorithms for object detection. For computation limitation, it would be a perfect choice. YOLO algorithm doesn’t use the sliding window technique to computing the bounding box’s or masking for like Mask-Rcnn. It divides the picture into a different grid and computes all the grid confidence value at once. We use original implementation for [YOLOV3 implementation](https://github.com/pjreddie/darknet) without modification and train it 6 hour by 20 epoch. 
+
+### 4.2 Mask RCNN
+
+[Mask-RCNN](https://arxiv.org/abs/1703.06870) is one of the most popular algorithms for this dataset. It makes sense because it does not need to be fast like car detection but it needs to be accurate. Masking the image gives some slide advantage for seeing the lang opacity(Like dense area or very shallow area). Mask-RCNN gives some improvement over YOLOV3 model with accuracy 16.2 and it can be updated by increasing the training time or tuning the hyper-parameters in the more suitable way. 
+
+![](https://i.imgur.com/RO6cVkW.png)
+ 
 
 
 ___
