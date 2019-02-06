@@ -50,6 +50,7 @@ In this project, the main goal is predicting whether pneumonia exists in a given
 
 For implementing in machine learning pipline to automate the system in web, we create a probabilishtic model in keras by ‘VGG16’ in top and some modification in dense layer. Model gives a certain probability for a input image and show the output probability. It gives 58 percent accuracy in this case but it can be increse by giving more training time. [This kernel](https://www.kaggle.com/yakinrubaiat/lung-opacity-classification) show 83 percent accuracy in kaggle kernel. 
 
+![Output Of the result in web](https://i.imgur.com/ICm7YBh.png)
 
 
 ___
