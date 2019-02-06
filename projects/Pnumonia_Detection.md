@@ -38,10 +38,12 @@ In this project, the main goal is predicting whether pneumonia exists in a given
 
 ### 4.2 Mask RCNN
 
-[Mask-RCNN](https://arxiv.org/abs/1703.06870) is one of the most popular algorithms for this dataset. It makes sense because it does not need to be fast like car detection but it needs to be accurate. Masking the image gives some slide advantage for seeing the lang opacity(Like dense area or very shallow area). Mask-RCNN gives some improvement over YOLOV3 model with accuracy 16.2 and it can be updated by increasing the training time or tuning the hyper-parameters in the more suitable way. 
+[Mask-RCNN](https://arxiv.org/abs/1703.06870) is one of the most popular algorithms for this dataset. It makes sense because it does not need to be fast like car detection but it needs to be accurate. Masking the image gives some slide advantage for seeing the lang opacity(Like dense area or very shallow area). Mask-RCNN gives some improvement over YOLOV3 model with accuracy 16.2 and it can be updated by increasing the training time or tuning the hyper-parameters in the more suitable way. We use this [Mask-RCNN] (https://github.com/matterport/Mask_RCNN) implementation to evaluate our result. 
 
 ![](https://i.imgur.com/RO6cVkW.png)
  
+### 4.3 Retina Net
 
+[Retina Net,2018](https://arxiv.org/abs/1708.02002) is the winning algorithm for this dataset since now. RetinaNet is the winning algorithm for this dataset since now. RetinaNet training some different way, its focal loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. So by taking only the positive example, it can detect pneumonia or well.
 
 ___
