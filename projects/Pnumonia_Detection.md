@@ -32,5 +32,9 @@ In this project, the main goal is predicting whether pneumonia exists in a given
 3. RetinaNet model
 4. Simple Custom classifier. 
 
-## 
+### 4.1 YOLO(You Only Look Once)V3 model
+
+[YOLOV3](https://pjreddie.com/media/files/papers/YOLOv3.pdf) is the fastest and one of the most popular algorithms for object detection. For computation limitation, it would be a perfect choice. YOLO algorithm doesn’t use the sliding window technique to computing the bounding box’s or masking for like Mask-Rcnn. It divides the the picture into a different grid and computes all the grid confidence value at once. For Pneumonia detection YOLO algorithm get 15.3 percent accuracy in exact boundary box detection where max threshold accuracy is 25.47. 
+
+
 ___
