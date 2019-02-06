@@ -44,6 +44,12 @@ In this project, the main goal is predicting whether pneumonia exists in a given
  
 ### 4.3 Retina Net
 
-[Retina Net,2018](https://arxiv.org/abs/1708.02002) is the winning algorithm for this dataset since now. RetinaNet is the winning algorithm for this dataset since now. RetinaNet training some different way, its focal loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. So by taking only the positive example, it can detect pneumonia or well.
+[Retina Net,2018](https://arxiv.org/abs/1708.02002) is the winning algorithm for this dataset since now. RetinaNet is the winning algorithm for this dataset since now. RetinaNet training some different way, its focal loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. So by taking only the positive example, it can detect pneumonia very well. But Retina Net model is very memory consumming and take more time than the other model to train. 
+
+### 4.4 Simple CNN Classification model
+
+For implementing in machine learning pipline to automate the system in web, we create a probabilishtic model in keras by ‘VGG16’ in top and some modification in dense layer. Model gives a certain probability for a input image and show the output probability. It gives 58 percent accuracy in this case but it can be increse by giving more training time. [This kernel](https://www.kaggle.com/yakinrubaiat/lung-opacity-classification) show 83 percent accuracy in kaggle kernel. 
+
+
 
 ___
