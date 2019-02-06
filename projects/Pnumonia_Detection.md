@@ -21,8 +21,16 @@ In Bangladesh, pneumonia is responsible for around 28% of the deaths of children
  
 The dataset used by this project is mainly a part of a competition called RSNA Pneumonia Detection Challenge organized by [Radiological Society of North America (RSNA®)](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge). The dataset contains 28,990 font view Chest X-ray image for training and 1000 image for the test. Here training and test data from separate distribution. The dataset contains 28,990 font view Chest X-ray image for training and 1000 image for the test. Here training and test data from separate distribution. The training data is provided as a set of patient Ids and bounding boxes. Bounding boxes are defined as follows: 'x-min','y min','width','height'. There is also a binary target column, Target, indicating pneumonia or non-pneumonia. There may be multiple rows per patient Id. All provided images are in DICOM format. 
 
+![](https://i.imgur.com/vZFbY17.png)
+
 ## 4. Prediction model
 
-In this project, the main goal is predicting whether pneumonia exists in a given image. They do so by predicting bounding boxes around areas of the lung. Samples without bounding boxes are negative and contain no definitive evidence of pneumonia. Samples with bounding boxes indicate evidence of pneumonia. When making predictions, competitors should predict as many bounding boxes as they feel are necessary, in the format: confidence x-min, y-min, width height.
+In this project, the main goal is predicting whether pneumonia exists in a given image. They do so by predicting bounding boxes around areas of the lung. Samples without bounding boxes are negative and contain no definitive evidence of pneumonia. Samples with bounding boxes indicate evidence of pneumonia. When making predictions, there should predict as many bounding boxes as necessary, in the format: confidence x-min, y-min, width height. We use differnt kind of Convulational Neural Network Based model to solve this this problem. They are as follow, 
 
+1. YOLOV3
+2. Mask-rcnn
+3. RetinaNet model
+4. Simple Custom classifier. 
+
+## 
 ___
