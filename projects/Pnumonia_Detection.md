@@ -13,7 +13,7 @@ The code is on **<a target="_blank" href="https://github.com/YakinRubaiat/Automa
 
 In this project,  
 
-## 2. Introdiction
+## 2. Introduction
 
 Pneumonia considers for an important proportion of patient morbidity and death (Gon¸calves-Pereira et al., 2013). Early diagnosis and treatment of pneumonia are important for stopping complications including death (Aydogdu et al., 2010). With approximately a billion procedures per year, chest X-rays are the most common imaging test tool used in practice, critical for screening, analysis, and management of a variety of diseases including pneumonia (Raoof et al., 2012). However, two-thirds of the global people lack access to radiology diagnostics, according to an estimate by the World Health Organization (Mollura et al., 2010). There is a lack of experts who can understand X-rays, even when imaging material is available, leading to increased mortality from treatable diseases (Kesselman et al., 2016).
 
