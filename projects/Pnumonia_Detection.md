@@ -19,7 +19,8 @@ Pneumonia considers for an important proportion of patient morbidity and death (
 
 In Bangladesh, pneumonia is responsible for around 28% of the deaths of children under five years of age. An estimated 80,000 children under five years of age are admitted to hospital with virus-associated acute respiratory illness each year; the total number of infections is likely to be much higher [(icddr,b)](https://www.icddrb.org/news-and-events/press-corner/media-resources/pneumonia-and-other-respiratory-diseases). Bangladesh is a very densely populated country. There is a shortage of expert radiology in bangladesh. It would be very helpful if there is a system on the internet that can detect Pneumonia automatically.  We create web-based deep learning method that can take a Chest X-picture and give some probability about the Pneumonia of a patient. This early detecting method can save a lot of time and help to respond quickly.   
 
-## 3. Dataset
+
+## 3 Dataset
  
 The dataset used by this project is mainly a part of a competition called RSNA Pneumonia Detection Challenge organized by [Radiological Society of North America (RSNA®)](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge). The dataset contains 28,990 font view Chest X-ray image for training and 1000 image for the test. Here training and test data from separate distribution. The dataset contains 28,990 font view Chest X-ray image for training and 1000 image for the test. Here training and test data from separate distribution. The training data is provided as a set of patient Ids and bounding boxes. Bounding boxes are defined as follows: 'x-min','y min','width','height'. There is also a binary target column, Target, indicating pneumonia or non-pneumonia. There may be multiple rows per patient Id. All provided images are in DICOM format. 
 
