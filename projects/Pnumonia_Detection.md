@@ -15,6 +15,8 @@ In this project,
 
 ## 2. Introdiction
 
+Pneumonia considers for an important proportion of patient morbidity and death (Gon¸calves-Pereira et al., 2013). Early diagnosis and treatment of pneumonia are important for stopping complications including death (Aydogdu et al., 2010). With approximately a billion procedures per year, chest X-rays are the most common imaging test tool used in practice, critical for screening, analysis, and management of a variety of diseases including pneumonia (Raoof et al., 2012). However, two-thirds of the global people lack access to radiology diagnostics, according to an estimate by the World Health Organization (Mollura et al., 2010). There is a lack of experts who can understand X-rays, even when imaging material is available, leading to increased mortality from treatable diseases (Kesselman et al., 2016).
+
 In Bangladesh, pneumonia is responsible for around 28% of the deaths of children under five years of age. An estimated 80,000 children under five years of age are admitted to hospital with virus-associated acute respiratory illness each year; the total number of infections is likely to be much higher [(icddr,b)](https://www.icddrb.org/news-and-events/press-corner/media-resources/pneumonia-and-other-respiratory-diseases). Bangladesh is a very densely populated country. There is a shortage of expert radiology in bangladesh. It would be very helpful if there is a system on the internet that can detect Pneumonia automatically.  We create web-based deep learning method that can take a Chest X-picture and give some probability about the Pneumonia of a patient. This early detecting method can save a lot of time and help to respond quickly.   
 
 ## 3. Dataset
@@ -52,5 +54,7 @@ For implementing in machine learning pipline to automate the system in web, we c
 
 ![Output Of the result in web](https://i.imgur.com/ICm7YBh.png)
 
+### 5. Discussion
 
+We analysis over different algorithm which detects pneumonia from frontal-view chest X-ray images. We also show that a simple extension of those algorithm to detect multiple diseases and can help to automate the pneumonia detection. With automation at the level of experts, we hope that this technology can improve healthcare delivery and increase access to medical imaging expertise in parts of the world where access to skilled radiologists are limited.
 ___
