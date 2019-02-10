@@ -24,7 +24,7 @@ In Bangladesh, pneumonia is responsible for around 28% of the deaths of children
  
 The dataset used by this project is mainly a part of a competition called RSNA Pneumonia Detection Challenge organized by [Radiological Society of North America (RSNA®)](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge). The dataset contains 28,990 font view Chest X-ray image for training and 1000 image for the test. Here training and test data from separate distribution. The dataset contains 28,990 font view Chest X-ray image for training and 1000 image for the test. Here training and test data from separate distribution. The training data is provided as a set of patient Ids and bounding boxes. Bounding boxes are defined as follows: 'x-min','y min','width','height'. There is also a binary target column, Target, indicating pneumonia or non-pneumonia. There may be multiple rows per patient Id. All provided images are in DICOM format. 
 
-![](https://i.imgur.com/LhDyO3x)
+![](https://i.imgur.com/LhDyO3x.png)
 
 ## 4. Prediction model
 
@@ -43,7 +43,7 @@ In this project, the main goal is predicting whether pneumonia exists in a given
 
 [Mask-RCNN](https://arxiv.org/abs/1703.06870) is one of the most popular algorithms for this dataset. It makes sense because it does not need to be fast like car detection but it needs to be accurate. Masking the image gives some slide advantage for seeing the lang opacity(Like dense area or very shallow area). Mask-RCNN gives some improvement over YOLOV3 model with accuracy 16.2 and it can be updated by increasing the training time or tuning the hyper-parameters in the more suitable way. We use this [Mask-RCNN] (https://github.com/matterport/Mask_RCNN) implementation to evaluate our result. 
 
-![](https://i.imgur.com/RO6cVkW.png)
+![](https://i.imgur.com/sYVQ8uE.png)
  
 ### 4.3 Retina Net
 
@@ -53,7 +53,7 @@ In this project, the main goal is predicting whether pneumonia exists in a given
 
 For implementing in machine learning pipline to automate the system in web, we create a probabilishtic model in keras by ‘VGG16’ in top and some modification in dense layer. Model gives a certain probability for a input image and show the output probability. It gives 58 percent accuracy in this case but it can be increse by giving more training time. [This kernel](https://www.kaggle.com/yakinrubaiat/lung-opacity-classification) show 83 percent accuracy in kaggle kernel. 
 
-![Output Of the result in web](https://i.imgur.com/ICm7YBh.png)
+![Output Of the result in web](https://i.imgur.com/XFLru9l.png)
 
 ### 5. Discussion
 
