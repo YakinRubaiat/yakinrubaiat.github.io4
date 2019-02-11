@@ -36,7 +36,7 @@ In this project, the main goal is predicting whether pneumonia exists in a given
 
 A new kind of network for performing feature extraction. This new network is a hybrid way among the network used in YOLOv2, Darknet-19, and that modern residual network stuff. This new network uses progressive 3 × 3 and 1 × 1 convolutional layers but now has some shortcut connections as well and is significantly larger. It has 53 convolutional layers name Darknet-53!
 
-![]([https://i.imgur.com/jA1Nowe.png)
+![](https://i.imgur.com/jA1Nowe.png)
 
 [YOLOV3](https://pjreddie.com/media/files/papers/YOLOv3.pdf) is the fastest and one of the most popular algorithms for object detection. YOLOV3 is the fastest and one of the most popular algorithms for object detection. For computation limitation, it would be a perfect choice. YOLO algorithm doesn’t use the sliding window technique to computing the bounding box’s or masking for like Mask-Rcnn. It divides the picture into a different grid and computes all the grid confidence value at once. We use original implementation for [YOLOV3 implementation](https://github.com/pjreddie/darknet) without modification and train it 6 hour by 20 epoch. 
 
