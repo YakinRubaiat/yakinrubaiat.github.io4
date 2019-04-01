@@ -12,7 +12,7 @@ In Bangladesh, we don't see so many startups as we should. First, we should talk
 
 When we think about a startup, lot's of us think like this, oh great, it's a business, lot's money but in real life mainly computer science domain it's not the case. In this domain, it's mainly about the break down a problem and solves it by technology. So you should have a lot's of knowledge(Basic, but basic is a lot in here) in the technology sector as well as the problem sector (what you are trying to do). So we need lot's of trusted people from multiple domains (Investor as well) work together. 
 
-When we think about in human capital in Bangladesh (Software Eng, Programmer, Developer) many of us said there are very competitive here, it's like a zero-sum game. If you get a good job mean's here another one is not get this good job. And tech industry won't work like that, here you have to join a company as an intern and you got to experience and this experience is cumulative in the long term. So, first of all, there is a scarcity of job and that's why we need more and more startUp. Second is there are so many micro problems in our country and lot's of them can be solved by technology, like the medical sector or education sector. so startUp can attack this problem and make a long term plan for change and make some capital.  
+When we think about in human capital in Bangladesh (Software Eng, Programmer, Developer) many of us said there are very competitive here, it's like a zero-sum game. If you get a good job mean's here another one does not get this good job. And tech industry won't work like that, here you have to join a company as an intern and you got to experience and this experience is cumulative in the long term. So, first of all, there is a scarcity of job and that's why we need more and more startUp. Second is there are so many micro problems in our country and lot's of them can be solved by technology, like the medical sector or education sector. so startUp can attack this problem and make a long term plan for change and make some capital.  
 
 So there are many many more reasons i think we should more go to a startUp world but today I mainly want to write about why it is failed in Bangladesh and why we need more focus on Open Souce contribution. 
 
@@ -23,7 +23,7 @@ So, first of all, there is a very gap in investor and founder in trusting becaus
 
 And secondly and more importantly about human capital. If we have a very good idea's but if we won't find any passionate, hardworking and more importantly skilled person in that domain to work on, we can't make a move to build a startUp. So why this kind of people is rare?
 
-Computer science/Tech is a very first growing and if you look in time the technological shift (Like programming language and framework) happening very first. So if we have to stay in the track, stay in the job, you have to update daily, read every day about the new algorithm, new design pattern, new platform and that's not an easy task. And it's conflicting with our country mentality that I get a job by based on a certain amount of knowledge and enjoy my whole life based on that knowledge. It's fun and easy but it's not supported in the tech industry for it's first changing behavior.
+Computer science/Tech is a very fast growing and if you look in time the technological shift (Like programming language and framework) happening very quickly. So if we have to stay in the track, stay in the job, you have to update daily, read every day about the new algorithm, new design pattern, new platform and that's not an easy task. And it's conflicting with our country mentality that I get a job by based on a certain amount of knowledge and enjoy my whole life based on that knowledge. It's fun and easy but it's not supported in the tech industry for it's fast changing behavior.
 
 So in tech people find a very interesting way to solve this problem. Let's make some micro-community and share our idea/knowledge openly and that way we can both grow still keep on track. the main thing is you have to believe in this community that whenever(Not always) you have some knowledge gap or trouble you can get this community and ask them the question and get a very useful answer by free like StackOverflow and GitHub or small like bapcs(Bangladesh advance computing society). Free is very important because for a fresher it's not possible to give something back(like knowledge and money) and they have to know from somewhere because of the education system or it's a very vast and rapid-growing domain where you can't know all by your own. And Expert programmer or experienced person need fresher's to keep alive this tech industry to produce more human capital. That's the win, win Game where everybody gets the benefits. 
 
@@ -33,10 +33,12 @@ There is a magic number where the human can operate or collaborate with other's 
 
 There is very sort of open source project is very low in Bangladesh. ACM community is a very good example of open source culture, they learn and grow together. I saw the teacher and many high-level contestants came and give the lecture to young for free. And that's why this community grow so rapidly. 
 
-If we cage our knowledge in a box and make a learning center offer them by money, it's not useful right? Because of technology change so rapidly and the number of the topic is so vast that if anyone wants to learn by money he will be backcorapt and trust is not fundamentally growing. 
+If we cage our knowledge in a box and make a learning center offer them by money, it's not useful right? Because of technology change so rapidly and the number of the topic is so vast that if anyone wants to learn by money he will be backcorrupt and trust is not fundamentally growing. 
 
 Sponer can look on that and help this situation in money. An event like the National Programming camp is very expensive so the sponsor can make help in that case. 
 
 Tech startUp is a very long term project with a very large number domain and lots of people involved. So we need lot's trusted (knowledge trust, capital trust) people to work on. And for building knowledge trust we need a more and more open source/open culture contribution, so we can go together and discovery the right combination of people together. 
 
 Thank you.
+
+
