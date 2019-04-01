@@ -1,5 +1,5 @@
 ---
-title: "StartUp and Open Source culture"
+title: "StartUp failer and Open Source culture"
 layout: post
 date: 2017-04-24
 tags: Random thoughts
