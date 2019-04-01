@@ -1,7 +1,7 @@
 ---
 title: "StartUp failer and Open Source culture"
 layout: post
-date: 2017-04-24
+date: 2019-04-01
 tags: Random thoughts
 comments: true
 ---
