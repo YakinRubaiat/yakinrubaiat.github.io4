@@ -8,7 +8,7 @@ comments: true
 
 
 
-Tech/ C.S.E mainly practical focused subject, it starts as sub or practical domain of applied mathematics. So you have to do lots of cumulative small work with a team or a large number of people from a different domain.  So you need some passionate people who can do this kind of thing's continuously and you need lot's of them together at the same time for a bigger project because most of the problem is big. 
+Tech/ C.S.E mainly practical focused subject, it starts as sub or practical domain of applied mathematics. So you have to do lots of cumulative small work with a team or a large number of people from a different domain. And you need some passionate people who can do this kind of thing's continuously plus you need lot's of them together at the same time for a bigger project because most of the problem is big. 
 
 This is the 2 things I think is the down track of bd C.S.E. Let me explain why,
 
