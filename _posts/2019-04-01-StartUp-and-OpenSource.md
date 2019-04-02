@@ -37,7 +37,7 @@ If we cage our knowledge in a box and make a learning center offer them by money
 
 Sponer can look on that and help this situation in money. An event like the National Programming camp is very expensive so the sponsor can make help in that case. 
 
-Tech startUp is a very long term project with a very large number domain and lots of people involved. So we need lot's trusted (knowledge trust, capital trust) people to work on. And for building knowledge trust we need a more and more open source/open culture contribution, so we can go together and discovery the right combination of people together. 
+Tech startUp is a very long term project with a very large scale domain and lots of people involved. So we need lot's trusted (knowledge trust, capital trust) people to work on. And for building knowledge trust we need a more and more open source/open culture contribution, so we can go together and discovery the right combination of people together. 
 
 Thank you.
 
