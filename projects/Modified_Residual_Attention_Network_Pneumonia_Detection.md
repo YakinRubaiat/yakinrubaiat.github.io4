@@ -1,4 +1,3 @@
-
 ---
 layout: project
 title: "Modified Residual Attention Network Pneumonia Detection"
