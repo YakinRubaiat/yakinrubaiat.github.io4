@@ -15,6 +15,7 @@ ___
 Residual block mainly a way to prevent the vanishing gradient. It adds the weight of its first layer with the last layer of the residual block.  There are many ways to structure the residual block,
 the most famous is Batchnorm+activationlayer+Conv layer followed by three times.
  
+The block that I used: 
 
 ```
     x = BatchNormalization()(input)
