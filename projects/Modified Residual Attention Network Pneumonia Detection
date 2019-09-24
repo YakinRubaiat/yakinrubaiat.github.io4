@@ -1,3 +1,4 @@
+
 ---
 layout: project
 title: "Modified Residual Attention Network Pneumonia Detection"
@@ -60,6 +61,8 @@ Example is:
 14 * 14 * 256
 
 28 * 28 * 256 
+
+56 * 56 * 256
 ```
 This is a simplified version of what Attention Block is look like in very simple form
 
