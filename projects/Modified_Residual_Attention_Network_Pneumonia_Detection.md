@@ -80,7 +80,7 @@ This is a simplified version of what Attention Block is look like in very simple
     psi = Activation('sigmoid'))(psi)
  ```
  
- Main Network ResidualAttention32
+My Main Network ResidualAttention32
  
  ```
     input_ = Input(shape=shape)
