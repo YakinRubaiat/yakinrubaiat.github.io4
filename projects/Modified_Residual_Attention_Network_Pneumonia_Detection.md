@@ -157,8 +157,8 @@ I changed the loss function to Adam to RMSprop becasue it worked well in my case
         CheXpert          DenseNet121       0.7680
         Yao et al.        ResNet152         0.713
         Wang et al. (2017) -------          0.633
-        Kaggle kernel      VGG16            82.6
-        Our network    ResidualAttention32  85.2
+        Kaggle kernel      VGG16            0.826
+        Our network    ResidualAttention32  0.851
         
 ```
 
