@@ -158,7 +158,7 @@ I changed the loss function to Adam to RMSprop becasue it worked well in my case
         Yao et al.        ResNet152         0.713
         Wang et al. (2017) -------          0.633
         Kaggle kernel      VGG16            82.6
-      ResidualAttention32                   85.2
+        Our network    ResidualAttention32  85.2
         
 ```
 
