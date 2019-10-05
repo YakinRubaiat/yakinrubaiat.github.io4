@@ -7,6 +7,32 @@ comments: true
 
 ___
 
+# The model I tried,
+
+
+```
+
+Name              Parameter          DataSet                    Accuracy          Modification
+                                                                (K_fold)
+DenseNet121       79,78,856     NHI_Xray_dataset                 81.7 %           Visualize the activation Layer in detection app
+
+ResNet50         2,55,57,032    RSNA_pnumonia_dataset            87.33 %          Implement Basic reset50 with focal loss and Adam Op.
+
+ResNet101        4,45,49,160    RSNA_pnumonia_dataset            89.16 %          Implement ResNet101 with focal, Img: 254
+
+ResNet(50+101)   7,01,60,192    RSNA_pnumonia_dataset            90.03 %          Same loss as previous, Train iteration: 50,Img: 512
+
+EfficientNet     5,50,12,455    RSNA_pnumonia_dataset            89.9 %           EfficientNet with BCE loss/focal loss
+
+VGG16           12,36,42,856    NHI_Xray_dataset(Pnumonia sub)   82.2 %           Implemeant pretrained VGG16 with unfreeze all layer
+
+ResAttention52   31.9 * 10^6    NHI_Xray_dataset(Pnumonia sub)   79.6 %           Basic implemention of ResAttention52
+
+ResAttention36    99,25,490     NHI_Xray_dataset(Pnumonia sub)   85.19 %          Downgrading in ResAtt52 in resudial block and         Attention block, Optimizar: RMSprop, Loss: Softmax
+
+```
+ 
+
 
 # Layer 
 
