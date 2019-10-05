@@ -28,7 +28,7 @@ VGG16           12,36,42,856    NHI_Xray_dataset(Pnumonia sub)   82.2 %         
 
 ResAttention52   31.9 * 10^6    NHI_Xray_dataset(Pnumonia sub)   79.6 %           Basic implemention of ResAttention52
 
-ResAttention36    99,25,490     NHI_Xray_dataset(Pnumonia sub)   85.19 %          Downgrading in ResAtt52 in resudial block and         Attention block, Optimizar: RMSprop, Loss: Softmax
+ResAttention36    99,25,490     NHI_Xray_dataset(Pnumonia sub)   85.19 %          Downgrading in ResAtt52 in resudial block and Attention block, Optimizar: RMSprop, Loss: Softmax
 
 ```
  
