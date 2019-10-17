@@ -14,7 +14,7 @@ ___
 
 Name              Parameter          DataSet                    Accuracy          Modification
                                                                 (K_fold)
-DenseNet121       79,78,856     NHI_Xray_dataset                 81.7 %           Visualize the activation Layer in detection app
+DenseNet121       79,78,856     NHI_Xray_dataset                 81.7 %           Visualize the activation Layer
 
 ResNet50         2,55,57,032    RSNA_pnumonia_dataset            87.33 %          Implement Basic reset50 with focal loss and Adam Op.
 
