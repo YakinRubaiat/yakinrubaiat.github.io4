@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T10:41:17.930Z" agent="5.0 (Windows)" etag="ZBpQfYLIfopDGJQlvi-m" version="13.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-23T13:23:59.654Z" agent="5.0 (Windows)" etag="zBd5BQMphLUPmyYK7ybA" version="13.7.4" type="github" pages="5">
   <diagram id="1DNxS5qw0rlBSGLivTUF" name="Page-1">
-    <mxGraphModel dx="1718" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1792" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="cO-JRu7kramHAGc49j1C-7" value="" style="line;strokeWidth=2;direction=south;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="90" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cO-JRu7kramHAGc49j1C-9" value="&lt;div&gt;Is he admin&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="cO-JRu7kramHAGc49j1C-9" value="&lt;div&gt;Is admin?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="310" y="210" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-12" value="&lt;div&gt;Yes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
@@ -22,38 +22,23 @@
         <mxCell id="cO-JRu7kramHAGc49j1C-13" value="&lt;div&gt;No&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="280" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cO-JRu7kramHAGc49j1C-14" value="Is it Built in template?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="110" y="315" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cO-JRu7kramHAGc49j1C-17" value="" style="line;strokeWidth=2;direction=south;html=1;" parent="1" vertex="1">
-          <mxGeometry x="67.5" y="395" width="185" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-21" value="Fetch all custom template&lt;br&gt;Fetch Built in template&lt;br&gt;&lt;div&gt;Fetch template category&lt;/div&gt; " style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
           <mxGeometry x="205" y="110" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-27" value="" style="line;strokeWidth=2;direction=south;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="190" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cO-JRu7kramHAGc49j1C-33" value="Check status " style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="110" y="410" width="100" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-34" value="Based on status&lt;br&gt;We separate it in &lt;br&gt;three section: 1. Publish&lt;br&gt;2. In review&lt;br&gt;3. Draft " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="450" width="150" height="80" as="geometry" />
+          <mxGeometry x="-40" y="330" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-35" value="Show template by category" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="100" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cO-JRu7kramHAGc49j1C-36" value="" style="line;strokeWidth=2;direction=south;html=1;" parent="1" vertex="1">
-          <mxGeometry x="155" y="510" width="10" height="30" as="geometry" />
+          <mxGeometry x="100" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="cO-JRu7kramHAGc49j1C-35" target="cO-JRu7kramHAGc49j1C-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-39" value="Is it Built in template?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="490" y="330" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cO-JRu7kramHAGc49j1C-45" value="&lt;div&gt;Yes&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="390" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cO-JRu7kramHAGc49j1C-46" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" parent="1" vertex="1">
           <mxGeometry x="465" y="410" width="150" height="50" as="geometry" />
@@ -70,11 +55,29 @@
         <mxCell id="cO-JRu7kramHAGc49j1C-53" value="&lt;div&gt;Show template in custom template category&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="560" y="460" width="135" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yxneZ59l0xZn34IrJ5ug-1" value="Show data in Template List page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="30" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-qUUTxImsfUKjAz0jcG5-1" value="This is described in &lt;br&gt;Page 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="125" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqI3n_XwI7QP0Fc19O8H-1" value="This check is for &lt;br&gt;Is user in admin page&lt;br&gt;Or practice page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5dQgWRu1Imd62TVf0FI6-10" value="We can only get &lt;br&gt;built in template&lt;br&gt;in admin page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="922FqSNaKI6kXUJEXbXu-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="922FqSNaKI6kXUJEXbXu-1" target="cO-JRu7kramHAGc49j1C-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="922FqSNaKI6kXUJEXbXu-1" value="Filter Template&lt;br&gt; by status " style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="mXxFb4xeOAoFtqNlRePG" name="Page-2">
-    <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="-fCcsJid87SUnkDtFPef-0" />
         <mxCell id="-fCcsJid87SUnkDtFPef-1" parent="-fCcsJid87SUnkDtFPef-0" />
@@ -143,14 +146,14 @@
         <mxCell id="-fCcsJid87SUnkDtFPef-20" value="Fetch&lt;br&gt;Template&lt;br&gt;Category" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="-fCcsJid87SUnkDtFPef-1">
           <mxGeometry x="690" y="155" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-fCcsJid87SUnkDtFPef-30" value="&lt;div&gt;Show Data in Email and SMS template&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="-fCcsJid87SUnkDtFPef-1">
-          <mxGeometry x="5" y="30" width="230" height="20" as="geometry" />
+        <mxCell id="-fCcsJid87SUnkDtFPef-30" value="&lt;div&gt;Fetch inital Data for &lt;br&gt;Email and SMS template&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="-fCcsJid87SUnkDtFPef-1">
+          <mxGeometry x="45" y="25" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="JnyZ095xHJkMCvKFxCRj" name="Page-3">
-    <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="YQQYmlaHooakoJt94Tnt-0" />
         <mxCell id="YQQYmlaHooakoJt94Tnt-1" parent="YQQYmlaHooakoJt94Tnt-0" />
@@ -160,7 +163,7 @@
         <mxCell id="YQQYmlaHooakoJt94Tnt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YQQYmlaHooakoJt94Tnt-1" source="YQQYmlaHooakoJt94Tnt-19" target="YQQYmlaHooakoJt94Tnt-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YQQYmlaHooakoJt94Tnt-19" value="Send Button&lt;br&gt;Operation" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
+        <mxCell id="YQQYmlaHooakoJt94Tnt-19" value="Send &lt;br&gt;Operation" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
           <mxGeometry x="350" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YQQYmlaHooakoJt94Tnt-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YQQYmlaHooakoJt94Tnt-1" source="YQQYmlaHooakoJt94Tnt-20" target="YQQYmlaHooakoJt94Tnt-22">
@@ -178,7 +181,10 @@
         <mxCell id="3F3jtd5peiCfW54x8AI0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YQQYmlaHooakoJt94Tnt-1" source="YQQYmlaHooakoJt94Tnt-25" target="3F3jtd5peiCfW54x8AI0-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YQQYmlaHooakoJt94Tnt-25" value="Check patient &lt;br&gt;accept emails/SMS&lt;br&gt;or not" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
+        <mxCell id="RREFAf3QMfOANuODeSf3-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YQQYmlaHooakoJt94Tnt-1" source="YQQYmlaHooakoJt94Tnt-25" target="RREFAf3QMfOANuODeSf3-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YQQYmlaHooakoJt94Tnt-25" value="Check patient &lt;br&gt;accept emails/SMS&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
           <mxGeometry x="330" y="370" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YQQYmlaHooakoJt94Tnt-27" value="1. Check Email Address Valid or not&lt;br&gt;2.Check patient is opt out or not" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
@@ -281,11 +287,17 @@
         <mxCell id="3F3jtd5peiCfW54x8AI0-29" value="Preview Email/SMS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
           <mxGeometry x="460" y="1130" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RREFAf3QMfOANuODeSf3-0" value="Show an Error Message about why it is not possible to send " style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
+          <mxGeometry x="110" y="380" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RREFAf3QMfOANuODeSf3-2" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="YQQYmlaHooakoJt94Tnt-1">
+          <mxGeometry x="285" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="gl0r3xwMLCpod1S2EtU6" name="Page-4">
-    <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="H2r-8ON0XV_xHGvAIli1-0" />
         <mxCell id="H2r-8ON0XV_xHGvAIli1-1" parent="H2r-8ON0XV_xHGvAIli1-0" />
@@ -343,6 +355,76 @@
         </mxCell>
         <mxCell id="bTe7GBqo6RIe5_BFNSpy-10" value="Use delete operation&lt;br&gt;in viewset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="H2r-8ON0XV_xHGvAIli1-1">
           <mxGeometry x="660" y="220" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e1NuscNlO7sTuEra6SmM-0" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="H2r-8ON0XV_xHGvAIli1-1">
+          <mxGeometry x="335" y="370" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e1NuscNlO7sTuEra6SmM-1" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="H2r-8ON0XV_xHGvAIli1-1">
+          <mxGeometry x="490" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MfWdSLGofpjr_FOvgOL--0" value="Operation from Template List page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="H2r-8ON0XV_xHGvAIli1-1">
+          <mxGeometry y="40" width="210" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lnLRKOhMLy9a2fdSiVY2" name="Page-5">
+    <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="vY_-ntNtjkazTe8jMEiE-0" />
+        <mxCell id="vY_-ntNtjkazTe8jMEiE-1" parent="vY_-ntNtjkazTe8jMEiE-0" />
+        <mxCell id="vY_-ntNtjkazTe8jMEiE-2" value="Template Category Operations " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="10" y="20" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vY_-ntNtjkazTe8jMEiE-1" source="P27jL0LvmFbqh_DBJqIF-1" target="P27jL0LvmFbqh_DBJqIF-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-1" value="Edit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="120" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vY_-ntNtjkazTe8jMEiE-1" source="P27jL0LvmFbqh_DBJqIF-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-8" value="Add" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="368" y="90" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vY_-ntNtjkazTe8jMEiE-1" source="P27jL0LvmFbqh_DBJqIF-10" target="P27jL0LvmFbqh_DBJqIF-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-10" value="Delete" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="600" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-14" value="Use Update operation&lt;br&gt;in viewset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="180" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-15" value="Use Create operation&lt;br&gt;in viewset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="440" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-16" value="Use delete operation&lt;br&gt;in viewset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="660" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-20" value="createTemplateCategory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="430" y="160" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-21" value="updateTemplateCategory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="180" y="160" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-22" value="TemplateCategoryAPIViewSet" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="340" y="270" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P27jL0LvmFbqh_DBJqIF-24" value="deleteTemplateCategory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vY_-ntNtjkazTe8jMEiE-1">
+          <mxGeometry x="650" y="160" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
