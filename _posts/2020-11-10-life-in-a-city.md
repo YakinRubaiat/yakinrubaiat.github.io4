@@ -1,7 +1,7 @@
 ---
 title: "Life in a City"
 layout: post
-date: 2019-04-01
+date: 2020-11-10
 tags: Random thoughts
 comments: true
 ---
